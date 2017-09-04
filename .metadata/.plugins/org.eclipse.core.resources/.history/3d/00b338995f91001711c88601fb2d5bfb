@@ -1,0 +1,31 @@
+package org;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class Test1Break
+{
+	@Test(description = "TestCase1",priority=1)
+	public void Addition()
+	{
+//		Assert.fail();
+		int a=12, b=87;
+		System.out.println("Adding a and b");
+		int c = a+b;
+		System.out.println(c);
+		Reporter.log("Addition Result is  "+c);
+		Reporter.log("Test Case 1 Completed");
+		System.out.println();
+		System.out.println();
+	}
+@Test(priority=2)
+public static void subtraction()
+{
+	int a=120, b=87;
+	System.out.println("Adding a and b");
+	int c = a-b;
+	Reporter.log("Addition Result is  "+c,true);
+	Reporter.log("Test Case 2 Completed...",true);
+}
+}

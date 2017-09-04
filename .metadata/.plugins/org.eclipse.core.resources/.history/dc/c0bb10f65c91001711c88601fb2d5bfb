@@ -1,0 +1,60 @@
+package org.ngTest.testNgExamples;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class TestngAttributes
+{
+	//description,timeout,priority,alwaysrun,enable,invocation count,invocation timeout,expected exception
+//		@Test(priority=1)
+//		public void test1()
+//		{
+//			
+//		}
+		@Test(description="kd;lfkd;s")
+		public void test2()
+		{
+		Reporter.log("Test Description",true);	
+		}
+		@Test(alwaysRun=true)
+		public void test3()
+		{
+			Reporter.log("AlwaysRun",true);	
+		}
+		@Test(enabled=true)
+		public void test4()
+		{
+			Reporter.log("enabled=true",true);	
+		}
+		@Test(enabled=false)
+		public void test41()
+		{
+			Reporter.log("enabled=false",true);	
+		}
+		
+		@Test(invocationCount=200,threadPoolSize=5)
+		public void test5()
+		{
+			Reporter.log("Invocating 2 times",true);	
+		}
+		@Test(invocationTimeOut=0001)
+		public void test6()
+		{
+			Reporter.log("TimeOut=1ms->it may or may not occur",true);	
+		}
+		@Test(expectedExceptions=ArithmeticException.class)
+		public void test7()
+		{
+			int a=0,b=10,c=0;
+			Reporter.log("expectedException BEFORE ArithmeticException",true);	
+			c=b/a;
+			Reporter.log("expectedException after ArithmeticException",true);	
+		}
+		@Test()
+		public void test8()
+		{
+			Assert.fail( "Failing it as tutor mentioned");
+		}
+}
+

@@ -1,0 +1,60 @@
+package org.ngTest.testNgExamples;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class PriorityTest
+{
+//	description,timeout,priority,alwaysrun,enable,invocation count,invocation timeout,expected exception
+	@Test(priority=-1)
+		public void ztest1()
+		{
+		Reporter.log( "Priority one TC",true);
+		}
+		@Test(description="kd;lfkd;s")
+		public void ztest2()
+		{
+		Reporter.log("Test Description",true);	
+		}
+		@Test(alwaysRun=true)
+		public void atest3()
+		{
+			Reporter.log("AlwaysRun",true);	
+		}
+		@Test(enabled=true)
+		public void mtest4()
+		{
+			Reporter.log("enabled=true",true);	
+		}
+		@Test(enabled=true)
+		public void wtest41()
+		{
+			Reporter.log("enabled=false",true);	
+		}
+		
+		@Test(invocationCount=2)
+		public void ttest5()
+		{
+			Reporter.log("Invocating 2 times",true);	
+		}
+		@Test(invocationTimeOut=0001)
+		public void btest6()
+		{
+			Reporter.log("TimeOut=1ms->it may or may not occur",true);	
+		}
+		@Test(expectedExceptions=ArithmeticException.class)
+		public void ntest7()
+		{
+			int a=0,b=10,c=0;
+			Reporter.log("expectedException BEFORE ArithmeticException",true);	
+			c=b/a;
+			Reporter.log("expectedException after ArithmeticException",true);	
+		}
+		@Test()
+		public void ktest8()
+		{
+			Reporter.log( "Failing it as tutor mentioned");
+		}
+}
+
