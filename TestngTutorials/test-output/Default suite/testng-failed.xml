@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.PriorityTest">
+      <class name="org.TestngAttributes">
         <methods>
-          <include name="btest6"/>
-          <include name="ktest8"/>
+          <include name="test6"/>
+          <include name="test8"/>
         </methods>
-      </class> <!-- org.PriorityTest -->
+      </class> <!-- org.TestngAttributes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

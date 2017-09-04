@@ -178,3 +178,40 @@ java.lang.AssertionError: Couldn't find a project
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.testng.eclipse 1 0 2017-09-04 16:56:31.432
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61056 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-1323705587\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61056 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-1323705587\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-04 16:57:48.003
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61065 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--2106807551\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61065 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--2106807551\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2017-09-04 16:59:50.813
+!MESSAGE HTTP Server 'Internal Error': http://redrockdigimark.com/apachemirror/java-repository/maven/plugins/maven-eclipse-plugin-1.12.jar/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 500.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2017-09-04 16:59:50.813
+!MESSAGE HttpComponents connection error response code 500.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-09-04 17:00:37.507
+!MESSAGE No repository found at http://opensource.cpupk.com/decompiler.
+
+!ENTRY org.testng.eclipse 1 0 2017-09-04 17:00:45.616
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61133 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-2123181509\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61133 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-2123181509\testng-customsuite.xml

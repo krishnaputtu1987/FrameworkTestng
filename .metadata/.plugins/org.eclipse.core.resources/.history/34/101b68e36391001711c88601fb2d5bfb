@@ -15,7 +15,7 @@ public class TestngAttributes
 	    @Test(priority=-1)
 		public void test1()
 		{
-		Reporter.log( "Priority one TC   Test1",true);
+		Reporter.log( "Priority one TC",true);
 		}
 
 		/**
@@ -26,7 +26,7 @@ public class TestngAttributes
 	    @Test(description="kd;lfkd;s")
 		public void test2()
 		{
-		Reporter.log("Test Description Test2",true);	
+		Reporter.log("Test Description",true);	
 		}
 		
 	    
@@ -38,7 +38,7 @@ public class TestngAttributes
 	    @Test(alwaysRun=true)
 		public void test3()
 		{
-			Reporter.log("AlwaysRun Test3",true);	
+			Reporter.log("AlwaysRun",true);	
 		}
 		
 		/**
@@ -49,7 +49,7 @@ public class TestngAttributes
 	    @Test(enabled=true)
 		public void test4()
 		{
-			Reporter.log("enabled=true Test4 ",true);	
+			Reporter.log("enabled=true",true);	
 		}
 		
 	    /**
@@ -60,7 +60,7 @@ public class TestngAttributes
 	    @Test(enabled=false)
 		public void test41()
 		{
-			Reporter.log("enabled=false Test41 ",true);	
+			Reporter.log("enabled=false",true);	
 		}
 		
 	    /**
@@ -71,7 +71,7 @@ public class TestngAttributes
 		@Test(invocationCount=2)
 		public void test5()
 		{
-			Reporter.log("Invocating 2 times Test5 ",true);	
+			Reporter.log("Invocating 2 times",true);	
 		}
 		
 		/**
@@ -88,7 +88,7 @@ public class TestngAttributes
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			Reporter.log("TimeOut=1ms->it may or may not occur  Test6",true);	
+			Reporter.log("TimeOut=1ms->it may or may not occur",true);	
 		}
 		
 		/**
@@ -100,9 +100,9 @@ public class TestngAttributes
 		public void test7()
 		{
 			int a=0,b=10,c=0;
-			Reporter.log("expectedException BEFORE ArithmeticException Test7 ",true);	
+			Reporter.log("expectedException BEFORE ArithmeticException",true);	
 			c=b/a;
-			Reporter.log("expectedException after ArithmeticException Test7 ",true);	
+			Reporter.log("expectedException after ArithmeticException",true);	
 		}
 		
 		/**
@@ -124,21 +124,7 @@ public class TestngAttributes
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}	
-			Reporter.log( "Failing it as tutor mentioned Test8 ");
+			Reporter.log( "Failing it as tutor mentioned");
 		}
-		
-		
-		/**
-		 *  Thread poolsize with invocation count Example 
-		 *  
-		 */
-		
-		@Test(invocationCount=10,threadPoolSize=5)
-		public void test9()
-		{
-			
-			Reporter.log("Thread pool size only when we use invocation count Test9",true);	
-		}
-		
 }
 
