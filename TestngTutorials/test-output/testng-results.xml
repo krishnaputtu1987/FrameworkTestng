@@ -1,157 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="1" total="20" passed="17">
+<testng-results skipped="3" failed="1" ignored="0" total="4" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[Priority one TC   Test1]]>
-    </line>
-    <line>
-      <![CDATA[Test Description Test2]]>
-    </line>
-    <line>
-      <![CDATA[AlwaysRun Test3]]>
-    </line>
-    <line>
-      <![CDATA[enabled=true Test4 ]]>
-    </line>
-    <line>
-      <![CDATA[Invocating 2 times Test5 ]]>
-    </line>
-    <line>
-      <![CDATA[Invocating 2 times Test5 ]]>
-    </line>
-    <line>
-      <![CDATA[TimeOut=1ms->it may or may not occur  Test6]]>
-    </line>
-    <line>
-      <![CDATA[expectedException BEFORE ArithmeticException Test7 ]]>
-    </line>
-    <line>
-      <![CDATA[Failing it as tutor mentioned Test8 ]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
-    </line>
-    <line>
-      <![CDATA[Thread pool size only when we use invocation count Test9]]>
+      <![CDATA[suprem method test1]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4553" started-at="2017-09-04T11:30:47Z" finished-at="2017-09-04T11:30:52Z">
+  <suite name="Default suite" duration-ms="111" started-at="2017-09-04T11:59:45Z" finished-at="2017-09-04T11:59:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4553" started-at="2017-09-04T11:30:47Z" finished-at="2017-09-04T11:30:52Z">
-      <class name="org.TestngAttributes">
-        <test-method status="PASS" signature="test1()[pri:-1, instance:org.TestngAttributes@5056dfcb]" name="test1" duration-ms="30" started-at="2017-09-04T17:00:47Z" finished-at="2017-09-04T17:00:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Priority one TC   Test1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test2" duration-ms="5" started-at="2017-09-04T17:00:47Z" description="kd;lfkd;s" finished-at="2017-09-04T17:00:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Description Test2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test3" duration-ms="5" started-at="2017-09-04T17:00:47Z" finished-at="2017-09-04T17:00:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[AlwaysRun Test3]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test4" duration-ms="10" started-at="2017-09-04T17:00:47Z" finished-at="2017-09-04T17:00:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[enabled=true Test4 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test5()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test5" duration-ms="10" started-at="2017-09-04T17:00:47Z" finished-at="2017-09-04T17:00:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Invocating 2 times Test5 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test5()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test5" duration-ms="5" started-at="2017-09-04T17:00:47Z" finished-at="2017-09-04T17:00:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Invocating 2 times Test5 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="FAIL" signature="test6()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test6" duration-ms="2045" started-at="2017-09-04T17:00:47Z" finished-at="2017-09-04T17:00:49Z">
-          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+    <test name="Default test" duration-ms="111" started-at="2017-09-04T11:59:45Z" finished-at="2017-09-04T11:59:45Z">
+      <class name="org.DependsOnMethods">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:org.DependsOnMethods@4590c9c3]" name="test1" duration-ms="25" started-at="2017-09-04T17:29:45Z" description="independent method" finished-at="2017-09-04T17:29:45Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[0]]>
+              <![CDATA[failed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
-          <reporter-output>
-            <line>
-              <![CDATA[TimeOut=1ms->it may or may not occur  Test6]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test7()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test7" duration-ms="15" started-at="2017-09-04T17:00:49Z" finished-at="2017-09-04T17:00:49Z">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-	at org.TestngAttributes.test7(TestngAttributes.java:104)
+              <![CDATA[java.lang.AssertionError: failed
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.DependsOnMethods.test1(DependsOnMethods.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -179,25 +46,21 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[expectedException BEFORE ArithmeticException Test7 ]]>
+              <![CDATA[suprem method test1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method status="FAIL" signature="test8()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test8" duration-ms="2020" started-at="2017-09-04T17:00:49Z" finished-at="2017-09-04T17:00:51Z">
-          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+        </test-method> <!-- test1 -->
+        <test-method status="SKIP" signature="test2()[pri:0, instance:org.DependsOnMethods@4590c9c3]" name="test2" duration-ms="0" started-at="2017-09-04T17:29:45Z" description="test2 depends on test1" depends-on-methods="org.DependsOnMethods.test1" finished-at="2017-09-04T17:29:45Z">
+          <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[0]]>
+              <![CDATA[Method DependsOnMethods.test2()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+              <![CDATA[java.lang.Throwable: Method DependsOnMethods.test2()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
@@ -217,84 +80,73 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[Failing it as tutor mentioned Test8 ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- test8 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="25" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
+        </test-method> <!-- test2 -->
+        <test-method status="SKIP" signature="test4()[pri:0, instance:org.DependsOnMethods@4590c9c3]" name="test4" duration-ms="0" started-at="2017-09-04T17:29:45Z" description="test4 depends on test1" depends-on-methods="org.DependsOnMethods.test1" finished-at="2017-09-04T17:29:45Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DependsOnMethods.test4()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DependsOnMethods.test4()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="41" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
+        </test-method> <!-- test4 -->
+        <test-method status="SKIP" signature="test3()[pri:0, instance:org.DependsOnMethods@4590c9c3]" name="test3" duration-ms="0" started-at="2017-09-04T17:29:45Z" description="test3 depends on test2" depends-on-methods="org.DependsOnMethods.test2" finished-at="2017-09-04T17:29:45Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DependsOnMethods.test3()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DependsOnMethods.test3()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="131" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="76" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="1" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="125" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="15" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="65" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="15" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-        <test-method status="PASS" signature="test9()[pri:0, instance:org.TestngAttributes@5056dfcb]" name="test9" duration-ms="10" started-at="2017-09-04T17:00:52Z" finished-at="2017-09-04T17:00:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Thread pool size only when we use invocation count Test9]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-      </class> <!-- org.TestngAttributes -->
+        </test-method> <!-- test3 -->
+      </class> <!-- org.DependsOnMethods -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

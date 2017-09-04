@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>17/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/3</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 04 17:00:47 IST 2017</td>
+<td>Started on:</td><td>Mon Sep 04 17:29:45 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4553 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (111 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.TestngAttributes.test6()'><b>test6</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1957405083" onClick='toggleBox("Output-1957405083", this, "Show output", "Hide output");'>Show output</a>
+<td title='org.DependsOnMethods.test1()'><b>test1</b><br>Test class: org.DependsOnMethods<br>Test method: independent method<br/>
+<a href="#Output-1459672753" onClick='toggleBox("Output-1459672753", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1957405083" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1957405083">
-TimeOut=1ms->it may or may not occur  Test6<br/>
+<a href="#Output-1459672753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1459672753">
+suprem method test1<br/>
 </div>
 </td>
-<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
+<td><div><pre>java.lang.AssertionError: failed
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.DependsOnMethods.test1(DependsOnMethods.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -106,11 +111,16 @@ TimeOut=1ms->it may or may not occur  Test6<br/>
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1957405083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1957405083'><pre>java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1459672753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1459672753'><pre>java.lang.AssertionError: failed
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.DependsOnMethods.test1(DependsOnMethods.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
@@ -131,166 +141,20 @@ TimeOut=1ms->it may or may not occur  Test6<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>2</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test8()'><b>test8</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-316239654" onClick='toggleBox("Output-316239654", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-316239654" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-316239654">
-Failing it as tutor mentioned Test8 <br/>
-</div>
-</td>
-<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace316239654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace316239654'><pre>java.lang.ArrayIndexOutOfBoundsException: 0
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
-	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>2</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
+<td>0</td>
+<td>org.DependsOnMethods@4590c9c3</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.TestngAttributes.test1()'><b>test1</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-117244645" onClick='toggleBox("Output-117244645", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-117244645" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-117244645">
-Priority one TC   Test1<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test2()'><b>test2</b><br>Test class: org.TestngAttributes<br>Test method: kd;lfkd;s<br/>
-<a href="#Output-1061804750" onClick='toggleBox("Output-1061804750", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1061804750" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1061804750">
-Test Description Test2<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test3()'><b>test3</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-507084503" onClick='toggleBox("Output-507084503", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-507084503" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-507084503">
-AlwaysRun Test3<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test4()'><b>test4</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1225439493" onClick='toggleBox("Output-1225439493", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1225439493" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1225439493">
-enabled=true Test4 <br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test5()'><b>test5</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1454127753" onClick='toggleBox("Output-1454127753", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1454127753" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1454127753">
-Invocating 2 times Test5 <br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test5()'><b>test5</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-667026744" onClick='toggleBox("Output-667026744", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-667026744" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-667026744">
-Invocating 2 times Test5 <br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test7()'><b>test7</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-112061925" onClick='toggleBox("Output-112061925", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-112061925" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-112061925">
-expectedException BEFORE ArithmeticException Test7 <br/>
-</div>
-</td>
-<td><div><pre>java.lang.ArithmeticException: / by zero
-	at org.TestngAttributes.test7(TestngAttributes.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+<td title='org.DependsOnMethods.test2()'><b>test2</b><br>Test class: org.DependsOnMethods<br>Test method: test2 depends on test1</td>
+<td><div><pre>java.lang.Throwable: Method DependsOnMethods.test2()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
@@ -308,17 +172,9 @@ expectedException BEFORE ArithmeticException Test7 <br/>
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace112061925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace112061925'><pre>java.lang.ArithmeticException: / by zero
-	at org.TestngAttributes.test7(TestngAttributes.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1926764753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1926764753'><pre>java.lang.Throwable: Method DependsOnMethods.test2()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
@@ -338,127 +194,95 @@ expectedException BEFORE ArithmeticException Test7 <br/>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
+<td>null</td></tr>
 <tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-34415648" onClick='toggleBox("Output-34415648", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-34415648" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-34415648">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
+<td title='org.DependsOnMethods.test3()'><b>test3</b><br>Test class: org.DependsOnMethods<br>Test method: test3 depends on test2</td>
+<td><div><pre>java.lang.Throwable: Method DependsOnMethods.test3()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1555690610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1555690610'><pre>java.lang.Throwable: Method DependsOnMethods.test3()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
+<td>null</td></tr>
 <tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-726068431" onClick='toggleBox("Output-726068431", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-726068431" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-726068431">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
+<td title='org.DependsOnMethods.test4()'><b>test4</b><br>Test class: org.DependsOnMethods<br>Test method: test4 depends on test1</td>
+<td><div><pre>java.lang.Throwable: Method DependsOnMethods.test4()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1497973285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1497973285'><pre>java.lang.Throwable: Method DependsOnMethods.test4()[pri:0, instance:org.DependsOnMethods@4590c9c3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1203834857" onClick='toggleBox("Output-1203834857", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1203834857" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1203834857">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1140757449" onClick='toggleBox("Output-1140757449", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1140757449" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1140757449">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-194683090" onClick='toggleBox("Output-194683090", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-194683090" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-194683090">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-262481273" onClick='toggleBox("Output-262481273", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-262481273" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-262481273">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1708923544" onClick='toggleBox("Output-1708923544", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1708923544" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1708923544">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-1252502249" onClick='toggleBox("Output-1252502249", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1252502249" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1252502249">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-117179858" onClick='toggleBox("Output-117179858", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-117179858" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-117179858">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
-<tr>
-<td title='org.TestngAttributes.test9()'><b>test9</b><br>Test class: org.TestngAttributes<br/>
-<a href="#Output-796491135" onClick='toggleBox("Output-796491135", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-796491135" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-796491135">
-Thread pool size only when we use invocation count Test9<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.TestngAttributes@5056dfcb</td></tr>
+<td>null</td></tr>
 </table><p>
 </body>
 </html>
