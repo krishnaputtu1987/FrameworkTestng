@@ -142,3 +142,18 @@ public class TestngAttributes
 		
 }
 
+//testng.xml file format
+
+	/**
+	 *  Testng.xml file
+	 *  <suite name="Suite" time-out="8000" thread-count="5" parallel="none">
+	 *  <test name="test" >
+	 *  <classes>
+	 *  <classes> or <packages>
+     *  <class name="org.ReporterLog"/> or<package name="org"/>
+	 *  </classes> or<packages>
+	 *  </test>
+	 *  </suite>
+	 * 
+	 */
+	

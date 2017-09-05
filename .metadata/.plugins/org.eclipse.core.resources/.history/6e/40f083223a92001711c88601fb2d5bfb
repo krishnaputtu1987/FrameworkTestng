@@ -1,0 +1,15 @@
+package org;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class Groups
+{
+	
+		 @Test(description="test5 depends on test4",groups={"smoke"})
+		  public void test5() 
+		   {
+			  Reporter.log("Smoke",true);
+		   }
+	
+}

@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.DependsOnMethods">
+      <class name="org.TestngAttributes">
         <methods>
-          <include name="test4"/>
-          <include name="test2"/>
-          <include name="test3"/>
-          <include name="test1"/>
+          <include name="test6"/>
+          <include name="test8"/>
         </methods>
-      </class> <!-- org.DependsOnMethods -->
+      </class> <!-- org.TestngAttributes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

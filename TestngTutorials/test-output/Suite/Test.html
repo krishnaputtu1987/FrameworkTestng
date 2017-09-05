@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 05 19:35:25 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (150 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.DependsOnGroups1.test1()'><b>test1</b><br>Test class: org.DependsOnGroups1<br>Test method: Smoke2 Group test1<br/>
+<a href="#Output-117244645" onClick='toggleBox("Output-117244645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117244645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117244645">
+Smoke2 group test1 <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups1@5056dfcb</td></tr>
+<tr>
+<td title='org.DependsOnGroups.test1()'><b>test1</b><br>Test class: org.DependsOnGroups<br>Test method: Smoke Group test1<br/>
+<a href="#Output-1596000437" onClick='toggleBox("Output-1596000437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1596000437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1596000437">
+Smoke group test1 <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups@2344fc66</td></tr>
+<tr>
+<td title='org.DependsOnGroups1.test2()'><b>test2</b><br>Test class: org.DependsOnGroups1<br>Test method:  Sanity2 Group test2<br/>
+<a href="#Output-1540011289" onClick='toggleBox("Output-1540011289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540011289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540011289">
+Sanity2 Smoke test2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups1@5056dfcb</td></tr>
+<tr>
+<td title='org.DependsOnGroups.test2()'><b>test2</b><br>Test class: org.DependsOnGroups<br>Test method:  Sanity Group test2<br/>
+<a href="#Output-832947102" onClick='toggleBox("Output-832947102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-832947102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-832947102">
+Sanity Smoke test2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups@2344fc66</td></tr>
+<tr>
+<td title='org.DependsOnGroups1.test3()'><b>test3</b><br>Test class: org.DependsOnGroups1<br>Test method:  test3 Depends on sanity2 group <br/>
+<a href="#Output-1926764753" onClick='toggleBox("Output-1926764753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1926764753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1926764753">
+test3 methods depends on sanity2 group<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups1@5056dfcb</td></tr>
+<tr>
+<td title='org.DependsOnGroups.test3()'><b>test3</b><br>Test class: org.DependsOnGroups<br>Test method:  test3 Depends on smoke group <br/>
+<a href="#Output-1846896625" onClick='toggleBox("Output-1846896625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1846896625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1846896625">
+test3 methods depends on smoke group<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups@2344fc66</td></tr>
+<tr>
+<td title='org.DependsOnGroups1.test4()'><b>test4</b><br>Test class: org.DependsOnGroups1<br>Test method:  test4 Depends on sanity1 and sanity2 group <br/>
+<a href="#Output-1845904670" onClick='toggleBox("Output-1845904670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1845904670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845904670">
+test4 methods depends on sanity1 and sanity2 group<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups1@5056dfcb</td></tr>
+<tr>
+<td title='org.DependsOnGroups.test4()'><b>test4</b><br>Test class: org.DependsOnGroups<br>Test method: test4 Depends on sanity group<br/>
+<a href="#Output-1555690610" onClick='toggleBox("Output-1555690610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1555690610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1555690610">
+test4 methods depends on sanity group<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups@2344fc66</td></tr>
+<tr>
+<td title='org.DependsOnGroups1.test5()'><b>test5</b><br>Test class: org.DependsOnGroups1<br>Test method:  test5 Depends on sa and smoke2 group <br/>
+<a href="#Output-1497973285" onClick='toggleBox("Output-1497973285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1497973285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1497973285">
+test5 methods depends on smoke1 and Smoke2group<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups1@5056dfcb</td></tr>
+<tr>
+<td title='org.DependsOnGroups.test5()'><b>test5</b><br>Test class: org.DependsOnGroups<br>Test method: test5 Depends on smoke and sanity group<br/>
+<a href="#Output-13329486" onClick='toggleBox("Output-13329486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13329486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13329486">
+test5 methods depends on smoke and sanity group<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups@2344fc66</td></tr>
+<tr>
+<td title='org.DependsOnGroups.test6()'><b>test6</b><br>Test class: org.DependsOnGroups<br/>
+<a href="#Output-1061804750" onClick='toggleBox("Output-1061804750", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1061804750" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1061804750">
+test method<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.DependsOnGroups@2344fc66</td></tr>
+</table><p>
+</body>
+</html>

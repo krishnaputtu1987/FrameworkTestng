@@ -271,3 +271,298 @@ java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.ecl
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 61602 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1391031222\testng-customsuite.xml
 java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61602 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1391031222\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-04 18:03:50.520
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62102 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-940087911\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 62102 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-940087911\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-04 18:04:12.445
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62105 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1684052830\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 62105 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1684052830\testng-customsuite.xml
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-04 18:07:06.480
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-04 18:07:06.512
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.ui 2 0 2017-09-05 12:42:38.805
+!MESSAGE The 'org.eclipse.recommenders.completion.rcp.javaCompletionProposalComputer.intelligent' proposal computer from the 'org.eclipse.recommenders.completion.rcp' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:41:27.466
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50059 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-886563199\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50059 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-886563199\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:44:32.996
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50098 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50098 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:45:22.268
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50110 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50110 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:45:33.657
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50116 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50116 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:47:03.206
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50133 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--598291720\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50133 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--598291720\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:47:14.903
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50135 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50135 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:53:23.759
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50178 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50178 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:53:57.019
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50183 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50183 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:54:30.427
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50191 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1654987867\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50191 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1654987867\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 18:54:43.410
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50193 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50193 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\GroupsAndMultipleGroups.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.239
+!MESSAGE Transitive closure for groups "[smoke, sanity]":org.Groups org.DependsOnGroups 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.249
+!MESSAGE Transitive closure for method test1: org.DependsOnGroups.test1 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.259
+!MESSAGE Transitive closure for method test2: org.DependsOnGroups.test2 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.279
+!MESSAGE Transitive closure for method test3: org.Groups.test1 org.Groups.test2 org.DependsOnGroups.test1 org.DependsOnGroups.test3 org.Groups.test5 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.289
+!MESSAGE Transitive closure for method test4: org.Groups.test3 org.DependsOnGroups.test2 org.DependsOnGroups.test4 org.Groups.test5 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.292
+!MESSAGE Transitive closure for method test5: org.Groups.test1 org.Groups.test2 org.Groups.test3 org.DependsOnGroups.test2 org.DependsOnGroups.test1 org.DependsOnGroups.test5 org.Groups.test5 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.317
+!MESSAGE Transitive closure for method test6: org.DependsOnGroups.test6 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:05:05.577
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50265 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1381926183\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50265 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--1381926183\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.685
+!MESSAGE Transitive closure for groups "[sanity1, smoke1]":org.DependsOnGroups 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.757
+!MESSAGE Transitive closure for method test1: org.DependsOnGroups.test1 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.771
+!MESSAGE Transitive closure for method test2: org.DependsOnGroups.test2 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.817
+!MESSAGE Transitive closure for method test3: org.DependsOnGroups.test1 org.DependsOnGroups.test3 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.857
+!MESSAGE Transitive closure for method test4: org.DependsOnGroups.test2 org.DependsOnGroups.test4 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.873
+!MESSAGE Transitive closure for method test5: org.DependsOnGroups.test2 org.DependsOnGroups.test1 org.DependsOnGroups.test5 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:03.890
+!MESSAGE Transitive closure for method test6: org.DependsOnGroups.test6 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:06:04.218
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50275 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-2078798229\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50275 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-2078798229\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:07:47.093
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50301 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\dependsongroup.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50301 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\dependsongroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:08:14.479
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50311 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\dependsongroup.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50311 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\dependsongroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:09:24.344
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50329 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\dependsongroup.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50329 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\dependsongroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.659
+!MESSAGE Transitive closure for groups "[sanity1, smoke1]":org.DependsOnGroups 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.679
+!MESSAGE Transitive closure for method test1: org.DependsOnGroups.test1 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.699
+!MESSAGE Transitive closure for method test2: org.DependsOnGroups.test2 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.719
+!MESSAGE Transitive closure for method test3: org.DependsOnGroups.test1 org.DependsOnGroups.test3 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.729
+!MESSAGE Transitive closure for method test4: org.DependsOnGroups.test2 org.DependsOnGroups.test4 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.739
+!MESSAGE Transitive closure for method test5: org.DependsOnGroups.test2 org.DependsOnGroups.test1 org.DependsOnGroups.test5 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.749
+!MESSAGE Transitive closure for method test6: org.DependsOnGroups.test6 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:11:03.989
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50340 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-1776014524\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50340 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-1776014524\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:20:03.010
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50389 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-2066682189\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50389 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse-2066682189\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:24:51.263
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] Groups.java [in org [in src [in TestngTutorials]]]
+  package org
+  import org.testng.Reporter
+  import org.testng.annotations.Test
+  class Groups
+    void test1()
+    void test2()
+    void test3()
+    void test4()
+    void test5()
+    void test6()
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:24:51.650
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50414 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--383972903\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50414 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--383972903\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:33:49.336
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50477 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\DependsOnGroupsInheritence.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50477 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\DependsOnGroupsInheritence.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:19.942
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50482 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\DependsOnGroupsInheritence.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50482 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\DependsOnGroupsInheritence.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.304
+!MESSAGE Transitive closure for groups "[sanity1, smoke2, smoke1, sanity2]":org.DependsOnGroups1 org.DependsOnGroups 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.321
+!MESSAGE Transitive closure for method test1: org.DependsOnGroups1.test1 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.337
+!MESSAGE Transitive closure for method test2: org.DependsOnGroups1.test2 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.352
+!MESSAGE Transitive closure for method test3: org.DependsOnGroups1.test3 org.DependsOnGroups1.test2 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.366
+!MESSAGE Transitive closure for method test4: org.DependsOnGroups.test2 org.DependsOnGroups1.test4 org.DependsOnGroups1.test2 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.381
+!MESSAGE Transitive closure for method test5: org.DependsOnGroups1.test5 org.DependsOnGroups.test1 org.DependsOnGroups1.test1 
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:34:53.734
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50486 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--406783646\testng-customsuite.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50486 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output C:\Users\INKUPP~1\AppData\Local\Temp\testng-eclipse--406783646\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-09-05 19:35:24.129
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar D:\test\FrameworkTestng\TestngTutorials\bin D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50495 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\DependsOnGroupsInheritence.xml
+java -ea -classpath D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:D:\test\FrameworkTestng\TestngTutorials\bin:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:D:\BOND SOFTWARE\neon eclipse\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50495 -protocol json -d D:\test\FrameworkTestng\TestngTutorials\test-output D:\test\FrameworkTestng\TestngTutorials\DependsOnGroupsInheritence.xml

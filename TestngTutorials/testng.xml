@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <packages>
-      <package name="org"/>
-    </packages>
-  </test> <!-- Test -->
+  <test name="GroupsAndMultipleGroups">
+    <classes>
+      <class name="org.Groups"/>
+    </classes>
+  </test> <!-- GroupsAndMultipleGroups -->
 </suite> <!-- Suite -->
