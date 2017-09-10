@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="parameters.parameteroverridesuiteleveltotestleve">
+      <class name="org.DataProviderWithTheClass">
         <methods>
-          <include name="testpara"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- parameters.parameteroverridesuiteleveltotestleve -->
+      </class> <!-- org.DataProviderWithTheClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

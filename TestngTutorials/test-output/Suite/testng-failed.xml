@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="org.RetryExample">
+      <class name="org.DataProviderWithTheClass">
         <methods>
-          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- org.RetryExample -->
+      </class> <!-- org.DataProviderWithTheClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

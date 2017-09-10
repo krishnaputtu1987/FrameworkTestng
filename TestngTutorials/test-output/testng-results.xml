@@ -1,53 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[running the createuserusera----123----true]]>
+    </line>
+    <line>
+      <![CDATA[running the createuseruserb----456----true]]>
+    </line>
+    <line>
+      <![CDATA[running the createuseruserc----789----false]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73" started-at="2017-09-09T16:15:24Z" finished-at="2017-09-09T16:15:24Z">
+  <suite name="Default suite" duration-ms="176" started-at="2017-09-10T08:18:41Z" finished-at="2017-09-10T08:18:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73" started-at="2017-09-09T16:15:24Z" finished-at="2017-09-09T16:15:24Z">
-      <class name="parameters.parameteroverridesuiteleveltotestleve">
-        <test-method status="FAIL" signature="testpara(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameters.parameteroverridesuiteleveltotestleve@5056dfcb]" name="testpara" duration-ms="0" started-at="2017-09-09T21:45:24Z" finished-at="2017-09-09T21:45:24Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Test on method testpara but has not been marked @Optional or defined
-in C:\Users\inkuppara\AppData\Local\Temp\testng-eclipse-1775568968\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Test on method testpara but has not been marked @Optional or defined
-in C:\Users\inkuppara\AppData\Local\Temp\testng-eclipse-1775568968\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test name="Default test" duration-ms="176" started-at="2017-09-10T08:18:41Z" finished-at="2017-09-10T08:18:41Z">
+      <class name="org.DataProviderOutSide">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.DataProviderOutSide@32e6e9c3]" name="test1" duration-ms="33" started-at="2017-09-10T13:48:41Z" data-provider="testdata" finished-at="2017-09-10T13:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uppara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kemail@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testpara -->
-      </class> <!-- parameters.parameteroverridesuiteleveltotestleve -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.DataProviderOutSide@32e6e9c3]" name="test1" duration-ms="5" started-at="2017-09-10T13:48:41Z" data-provider="testdata" finished-at="2017-09-10T13:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uppara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[semail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.DataProviderOutSide@32e6e9c3]" name="test1" duration-ms="4" started-at="2017-09-10T13:48:41Z" data-provider="testdata" finished-at="2017-09-10T13:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[veeresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uppara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vemail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="createUser(java.lang.String, int, boolean)[pri:2, instance:org.DataProviderOutSide@32e6e9c3]" name="createUser" duration-ms="4" started-at="2017-09-10T13:48:41Z" data-provider="userlist" finished-at="2017-09-10T13:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[running the createuserusera----123----true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, int, boolean)[pri:2, instance:org.DataProviderOutSide@32e6e9c3]" name="createUser" duration-ms="5" started-at="2017-09-10T13:48:41Z" data-provider="userlist" finished-at="2017-09-10T13:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[running the createuseruserb----456----true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, int, boolean)[pri:2, instance:org.DataProviderOutSide@32e6e9c3]" name="createUser" duration-ms="8" started-at="2017-09-10T13:48:41Z" data-provider="userlist" finished-at="2017-09-10T13:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[running the createuseruserc----789----false]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- org.DataProviderOutSide -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
