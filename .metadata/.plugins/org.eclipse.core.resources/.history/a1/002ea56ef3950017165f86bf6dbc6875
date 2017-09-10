@@ -12,19 +12,19 @@ import org.testng.annotations.ITestAnnotation;
 
 public class Retry implements IRetryAnalyzer
 {
-	private int minCount = 1, maxCount = 3;
+	private int minCount = 0, maxCount = 3;
 
 	@Override
 	public boolean retry(ITestResult result)
 	{
 
-		if(result.getStatus()==ITestResult.FAILURE && minCount<=maxCount)
+		if(result.getStatus()==ITestResult.FAILURE && minCount<maxCount)
 		{
 			try
 			{
 				
 				Thread.sleep(2000);
-				System.out.println("Test name"+ result.getTestClass()+" "+"Retry failed test method name "+result.getName()+" "+minCount);
+				System.out.println("Test name"+ result.getTestClass()+" "+"Retry failed test method name "+result.getName()+" "+(minCount+1));
 				minCount++;
 				return true;
 				

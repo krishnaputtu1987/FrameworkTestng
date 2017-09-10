@@ -18,7 +18,7 @@ public class Retry implements IRetryAnalyzer
 	public boolean retry(ITestResult result)
 	{
 
-		if(result.getStatus()==ITestResult.FAILURE && minCount<=maxCount)
+		if(result.getStatus()==ITestResult.FAILURE && minCount<maxCount)
 		{
 			try
 			{

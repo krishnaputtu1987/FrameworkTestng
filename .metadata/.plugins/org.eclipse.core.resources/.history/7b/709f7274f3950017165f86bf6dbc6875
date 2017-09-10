@@ -18,13 +18,13 @@ public class Retry implements IRetryAnalyzer
 	public boolean retry(ITestResult result)
 	{
 
-		if(result.getStatus()==ITestResult.FAILURE && minCount<=maxCount)
+		if(result.getStatus()==ITestResult.FAILURE && minCount<maxCount)
 		{
 			try
 			{
 				
 				Thread.sleep(2000);
-				System.out.println("Test name"+ result.getTestClass()+" "+"Retry failed test method name "+result.getName()+" "+minCount);
+				System.out.println("Test name"+ result.getTestClass()+" "+"Retry failed test method name "+result.getName()+" "+(minCount+1));
 				minCount++;
 				return true;
 				
