@@ -1,0 +1,30 @@
+package ListenersReporter;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+
+public class Retry implements IRetryAnalyzer
+{
+	private int minCount = 0, maxCount = 3;
+	@Override
+	public boolean retry(ITestResult result)
+	{
+		if(result.getStatus()==ITestResult.FAILURE && minCount<=maxCount)
+		{
+			try
+			{
+				Thread.sleep(2000);
+				System.out.println("Retry failed test mathods" +result.getName(),minCount);
+				minCount++;
+				
+			} catch (InterruptedException e)
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return false;
+	}
+
+}

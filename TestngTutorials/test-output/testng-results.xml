@@ -1,137 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Smoke2 group test1 ]]>
-    </line>
-    <line>
-      <![CDATA[Sanity2 Smoke test2]]>
-    </line>
-    <line>
-      <![CDATA[Smoke group test1 ]]>
-    </line>
-    <line>
-      <![CDATA[Sanity Smoke test2]]>
-    </line>
-    <line>
-      <![CDATA[test method]]>
-    </line>
-    <line>
-      <![CDATA[test3 methods depends on sanity2 group]]>
-    </line>
-    <line>
-      <![CDATA[test4 methods depends on sanity1 and sanity2 group]]>
-    </line>
-    <line>
-      <![CDATA[test5 methods depends on smoke1 and Smoke2group]]>
-    </line>
-    <line>
-      <![CDATA[test3 methods depends on smoke group]]>
-    </line>
-    <line>
-      <![CDATA[test4 methods depends on sanity group]]>
-    </line>
-    <line>
-      <![CDATA[test5 methods depends on smoke and sanity group]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="150" started-at="2017-09-05T14:05:25Z" finished-at="2017-09-05T14:05:25Z">
+  <suite name="Default suite" duration-ms="73" started-at="2017-09-09T16:15:24Z" finished-at="2017-09-09T16:15:24Z">
     <groups>
-      <group name="sanity1">
-        <method signature="DependsOnGroups.test2()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test2" class="org.DependsOnGroups"/>
-      </group> <!-- sanity1 -->
-      <group name="smoke2">
-        <method signature="DependsOnGroups1.test1()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test1" class="org.DependsOnGroups1"/>
-      </group> <!-- smoke2 -->
-      <group name="smoke1">
-        <method signature="DependsOnGroups.test1()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test1" class="org.DependsOnGroups"/>
-      </group> <!-- smoke1 -->
-      <group name="sanity2">
-        <method signature="DependsOnGroups1.test2()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test2" class="org.DependsOnGroups1"/>
-      </group> <!-- sanity2 -->
     </groups>
-    <test name="Test" duration-ms="150" started-at="2017-09-05T14:05:25Z" finished-at="2017-09-05T14:05:25Z">
-      <class name="org.DependsOnGroups">
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test1" duration-ms="4" started-at="2017-09-05T19:35:25Z" description="Smoke Group test1" finished-at="2017-09-05T19:35:25Z">
+    <test name="Default test" duration-ms="73" started-at="2017-09-09T16:15:24Z" finished-at="2017-09-09T16:15:24Z">
+      <class name="parameters.parameteroverridesuiteleveltotestleve">
+        <test-method status="FAIL" signature="testpara(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameters.parameteroverridesuiteleveltotestleve@5056dfcb]" name="testpara" duration-ms="0" started-at="2017-09-09T21:45:24Z" finished-at="2017-09-09T21:45:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method testpara but has not been marked @Optional or defined
+in C:\Users\inkuppara\AppData\Local\Temp\testng-eclipse-1775568968\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method testpara but has not been marked @Optional or defined
+in C:\Users\inkuppara\AppData\Local\Temp\testng-eclipse-1775568968\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[Smoke group test1 ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test2" duration-ms="4" started-at="2017-09-05T19:35:25Z" description=" Sanity Group test2" finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Sanity Smoke test2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test6()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test6" duration-ms="2" started-at="2017-09-05T19:35:25Z" finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test3" duration-ms="4" depends-on-groups="smoke1" started-at="2017-09-05T19:35:25Z" description=" test3 Depends on smoke group " finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test3 methods depends on smoke group]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test4" duration-ms="4" depends-on-groups="sanity1" started-at="2017-09-05T19:35:25Z" description="test4 Depends on sanity group" finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test4 methods depends on sanity group]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test5()[pri:0, instance:org.DependsOnGroups@2344fc66]" name="test5" duration-ms="3" depends-on-groups="sanity1, smoke1" started-at="2017-09-05T19:35:25Z" description="test5 Depends on smoke and sanity group" finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test5 methods depends on smoke and sanity group]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-      </class> <!-- org.DependsOnGroups -->
-      <class name="org.DependsOnGroups1">
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test1" duration-ms="25" started-at="2017-09-05T19:35:25Z" description="Smoke2 Group test1" finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Smoke2 group test1 ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test2" duration-ms="2" started-at="2017-09-05T19:35:25Z" description=" Sanity2 Group test2" finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Sanity2 Smoke test2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test3" duration-ms="10" depends-on-groups="sanity2" started-at="2017-09-05T19:35:25Z" description=" test3 Depends on sanity2 group " finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test3 methods depends on sanity2 group]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test4" duration-ms="5" depends-on-groups="sanity1, sanity2" started-at="2017-09-05T19:35:25Z" description=" test4 Depends on sanity1 and sanity2 group " finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test4 methods depends on sanity1 and sanity2 group]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test5()[pri:0, instance:org.DependsOnGroups1@5056dfcb]" name="test5" duration-ms="2" depends-on-groups="smoke2, smoke1" started-at="2017-09-05T19:35:25Z" description=" test5 Depends on sa and smoke2 group " finished-at="2017-09-05T19:35:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[test5 methods depends on smoke1 and Smoke2group]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-      </class> <!-- org.DependsOnGroups1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testpara -->
+      </class> <!-- parameters.parameteroverridesuiteleveltotestleve -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

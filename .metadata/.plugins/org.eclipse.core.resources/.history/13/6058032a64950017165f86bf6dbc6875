@@ -1,0 +1,45 @@
+package ListenersReporter;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
+import org.testng.IAnnotationTransformer;
+import org.testng.IRetryAnalyzer;
+import org.testng.ISuite;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+import org.testng.annotations.ITestAnnotation;
+
+public class Retry implements IRetryAnalyzer,IAnnotationTransformer
+{
+	private int minCount = 0, maxCount = 3;
+	ISuite suite;
+	@Override
+	public boolean retry(ITestResult result)
+	{
+		if(result.getStatus()==ITestResult.FAILURE && minCount<maxCount)
+		{
+			try
+			{
+				
+				Thread.sleep(2000);
+				System.out.println("Suite name "+ suite.getName() +"Retry failed test "+result.getName()+" "+minCount+1);
+				minCount++;
+				return true;
+				
+			} catch (InterruptedException e)
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return false;
+	}
+	@Override
+	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+}

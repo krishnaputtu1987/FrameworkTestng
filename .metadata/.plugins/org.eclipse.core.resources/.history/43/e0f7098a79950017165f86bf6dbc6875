@@ -1,0 +1,6 @@
+package parameters;
+
+public class OptionalParameter
+{
+
+}

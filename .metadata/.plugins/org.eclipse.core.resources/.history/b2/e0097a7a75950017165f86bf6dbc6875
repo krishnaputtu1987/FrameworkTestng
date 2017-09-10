@@ -1,0 +1,18 @@
+package parameters;
+
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+public class parameter
+{
+	@Parameter({"browser","url","timeout"})
+	@Test()
+	public void testpara()
+	{
+		long waittime = Long.parseLong("timeout")
+		System.out.println("browser name"+browser+ "url name"+url+" timeout"+waittime);
+		
+	}
+
+}

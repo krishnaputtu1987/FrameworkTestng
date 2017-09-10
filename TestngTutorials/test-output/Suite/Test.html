@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 05 19:35:25 IST 2017</td>
+<td>Started on:</td><td>Sat Sep 09 19:37:48 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (150 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (105 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,55 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.RetryExample.test2()'><b>test2</b><br>Test class: org.RetryExample</td>
+<td><div><pre>java.lang.AssertionError: expected [test3] but found [test2]
+	at org.RetryExample.test2(RetryExample.java:22)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1555690610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1555690610'><pre>java.lang.AssertionError: expected [test3] but found [test2]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at org.RetryExample.test2(RetryExample.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>org.RetryExample@6574b225</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,137 +124,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.DependsOnGroups1.test1()'><b>test1</b><br>Test class: org.DependsOnGroups1<br>Test method: Smoke2 Group test1<br/>
-<a href="#Output-117244645" onClick='toggleBox("Output-117244645", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-117244645" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-117244645">
-Smoke2 group test1 <br/>
-</div>
-</td>
+<td title='org.RetryExample.test1()'><b>test1</b><br>Test class: org.RetryExample</td>
 <td></td>
 <td>0</td>
-<td>org.DependsOnGroups1@5056dfcb</td></tr>
-<tr>
-<td title='org.DependsOnGroups.test1()'><b>test1</b><br>Test class: org.DependsOnGroups<br>Test method: Smoke Group test1<br/>
-<a href="#Output-1596000437" onClick='toggleBox("Output-1596000437", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1596000437" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1596000437">
-Smoke group test1 <br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups@2344fc66</td></tr>
-<tr>
-<td title='org.DependsOnGroups1.test2()'><b>test2</b><br>Test class: org.DependsOnGroups1<br>Test method:  Sanity2 Group test2<br/>
-<a href="#Output-1540011289" onClick='toggleBox("Output-1540011289", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1540011289" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1540011289">
-Sanity2 Smoke test2<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups1@5056dfcb</td></tr>
-<tr>
-<td title='org.DependsOnGroups.test2()'><b>test2</b><br>Test class: org.DependsOnGroups<br>Test method:  Sanity Group test2<br/>
-<a href="#Output-832947102" onClick='toggleBox("Output-832947102", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-832947102" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-832947102">
-Sanity Smoke test2<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups@2344fc66</td></tr>
-<tr>
-<td title='org.DependsOnGroups1.test3()'><b>test3</b><br>Test class: org.DependsOnGroups1<br>Test method:  test3 Depends on sanity2 group <br/>
-<a href="#Output-1926764753" onClick='toggleBox("Output-1926764753", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1926764753" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1926764753">
-test3 methods depends on sanity2 group<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups1@5056dfcb</td></tr>
-<tr>
-<td title='org.DependsOnGroups.test3()'><b>test3</b><br>Test class: org.DependsOnGroups<br>Test method:  test3 Depends on smoke group <br/>
-<a href="#Output-1846896625" onClick='toggleBox("Output-1846896625", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1846896625" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1846896625">
-test3 methods depends on smoke group<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups@2344fc66</td></tr>
-<tr>
-<td title='org.DependsOnGroups1.test4()'><b>test4</b><br>Test class: org.DependsOnGroups1<br>Test method:  test4 Depends on sanity1 and sanity2 group <br/>
-<a href="#Output-1845904670" onClick='toggleBox("Output-1845904670", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1845904670" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1845904670">
-test4 methods depends on sanity1 and sanity2 group<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups1@5056dfcb</td></tr>
-<tr>
-<td title='org.DependsOnGroups.test4()'><b>test4</b><br>Test class: org.DependsOnGroups<br>Test method: test4 Depends on sanity group<br/>
-<a href="#Output-1555690610" onClick='toggleBox("Output-1555690610", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1555690610" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1555690610">
-test4 methods depends on sanity group<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups@2344fc66</td></tr>
-<tr>
-<td title='org.DependsOnGroups1.test5()'><b>test5</b><br>Test class: org.DependsOnGroups1<br>Test method:  test5 Depends on sa and smoke2 group <br/>
-<a href="#Output-1497973285" onClick='toggleBox("Output-1497973285", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1497973285" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1497973285">
-test5 methods depends on smoke1 and Smoke2group<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups1@5056dfcb</td></tr>
-<tr>
-<td title='org.DependsOnGroups.test5()'><b>test5</b><br>Test class: org.DependsOnGroups<br>Test method: test5 Depends on smoke and sanity group<br/>
-<a href="#Output-13329486" onClick='toggleBox("Output-13329486", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-13329486" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-13329486">
-test5 methods depends on smoke and sanity group<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups@2344fc66</td></tr>
-<tr>
-<td title='org.DependsOnGroups.test6()'><b>test6</b><br>Test class: org.DependsOnGroups<br/>
-<a href="#Output-1061804750" onClick='toggleBox("Output-1061804750", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1061804750" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1061804750">
-test method<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.DependsOnGroups@2344fc66</td></tr>
+<td>org.RetryExample@6574b225</td></tr>
 </table><p>
 </body>
 </html>

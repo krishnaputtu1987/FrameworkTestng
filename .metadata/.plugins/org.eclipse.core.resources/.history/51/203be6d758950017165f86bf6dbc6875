@@ -1,0 +1,27 @@
+package org;
+
+import java.util.List;
+import java.util.Map;
+
+import org.testng.IReporter;
+import org.testng.ISuite;
+import org.testng.ISuiteResult;
+import org.testng.xml.XmlSuite;
+
+public class Ireporterclass implements IReporter
+{
+
+	@Override
+	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory)
+	{
+		// Iterates all the suites present in the TestNg xml file 
+		for(ISuite suite :suites)
+		{
+			// gets all the suites names from TestNG xml 
+			String suitesNames = suite.getName();
+			Map<String, ISuiteResult> suiteResults = suite.getResults();
+		}
+		
+	}
+
+}
